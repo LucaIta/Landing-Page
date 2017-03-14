@@ -1,0 +1,126 @@
+body {
+    background-size: 100%;
+    background-image: url("../img/background.jpg");
+    color: white;
+    font-family: 'Roboto Slab',Serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    box-sizing: border-box;
+    height: 45px;
+    padding: 5px;
+}
+
+.rightLinks {
+    text-align: right;
+    font-size: 16px;
+}
+
+.rightLinks p {
+    padding: 10px;
+    margin: 0px;
+    margin-left: 6px;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    width: 1200px;
+    padding-top: 120px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+}
+
+.rightLinks a {
+    display: inline-block;
+    height: 45px;
+}
+
+.roundedBorder {
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 90px;
+    margin: 20px;
+    letter-spacing: 5px
+}
+
+.text {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-style: oblique;
+    font-family: Serif;
+}
+
+.buttonLink {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttonContainer {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonContainer p {
+    display: inline-block;
+}
+
+.buttonLink img {
+    display: inline-block;
+}
+
+.buttonLogo {
+    height: 15px;
+}
+
+.topStoriesLink {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.facebookLink {
+    background-color: #4A6EA9
+}
+
+.imageLink {
+    width: 150px;
+    margin: 3px;
+    margin-top: 30px;
+}
+
+.signIn p {
+    border: 2px solid white;
+}
+
+.signUp p {
+    border: 2px solid orange;
+    background-color: orange;
+    color: black;
+}
+
+.bottomLinkContainer a img{
+    vertical-align: middle;
+}
