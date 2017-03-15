@@ -1,4 +1,4 @@
-# Bucketlistly homepage clone
+# Bucketlistly Homepage Clone
 
 ## Description
 
